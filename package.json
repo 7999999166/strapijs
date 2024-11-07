@@ -8,7 +8,8 @@
     "deploy": "strapi deploy",
     "dev": "strapi develop",
     "start": "strapi develop",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "prebuild": "cd src/plugins/push-notifications-plugin && npm run build"
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.3.0",
@@ -21,8 +22,7 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
-    "styled-components": "^6.1.13",
-    "push-notifications-plugin": "file:src/plugins/push-notifications-plugin"
+    "styled-components": "^6.1.13"
   },
   "engines": {
     "node": ">=18.0.0 <=22.x.x",
