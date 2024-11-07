@@ -9,7 +9,7 @@
     "dev": "strapi develop",
     "start": "strapi develop",
     "strapi": "strapi",
-    "prebuild": "cd src/plugins/push-notifications-plugin && npm run build"
+    "prebuild:pns": "cd src/plugins/push-notifications-plugin && npm run build"
   },
   "workspaces": [
     "./src/plugins/push-notifications-plugin"
