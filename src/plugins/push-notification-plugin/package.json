@@ -32,12 +32,12 @@
   },
   "strapi": {
     "kind": "plugin",
-    "name": "push-notifications-plugin",
-    "displayName": "Push Notifications",
-    "description": "Send Push Notifications By Using FCM"
+    "name": "push-notification-plugin",
+    "displayName": "push notification",
+    "description": "Send Push Notification Using FCM"
   },
-  "name": "push-notifications-plugin",
-  "description": "Send Push Notifications By Using FCM",
+  "name": "push-notification-plugin",
+  "description": "Send Push Notification Using FCM",
   "license": "MIT",
   "author": "Kanik Goyal <volo.kanik@gmail.com>"
 }

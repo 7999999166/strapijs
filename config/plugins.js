@@ -14,13 +14,15 @@ module.exports = ({ env }) => ({
       },
     },
    },
-   'push-notifications-plugin':{enabled:true , resolve:'./src/plugins/push-notifications-plugin'},
+
+   'push-notification-plugin':{enabled:true , resolve:'./src/plugins/push-notification-plugin'},
+   
    // ...
   // ...
   "users-permissions": {
     config: {
       register: {
-        allowedFields: [ "PhoneNo" , "Address" ],
+        allowedFields: [ "PhoneNo" , "Address" , "FcmTocken" , "Name" ],
       },
     },
   },

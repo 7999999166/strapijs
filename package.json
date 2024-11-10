@@ -9,10 +9,10 @@
     "dev": "strapi develop",
     "start": "strapi develop",
     "strapi": "strapi",
-    "prebuild": "npm run build --prefix ./src/plugins/push-notifications-plugin"
+    "prebuild": "npm run build --prefix ./src/plugins/push-notification-plugin"
   },
   "workspaces": [
-    "./src/plugins/push-notifications-plugin"
+    "./src/plugins/push-notification-plugin"
   ],
   "dependencies": {
     "@strapi/plugin-cloud": "5.3.0",
