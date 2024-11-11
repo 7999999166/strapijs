@@ -20,20 +20,22 @@
     "watch:link": "strapi-plugin watch:link",
     "verify": "strapi-plugin verify"
   },
-  "dependencies": {},
+  "dependencies": {
+    "firebase-admin": "^12.7.0"
+  },
   "devDependencies": {
-    "@strapi/strapi": "^5.3.0",
     "@strapi/sdk-plugin": "^5.2.7",
+    "@strapi/strapi": "^5.3.0",
     "prettier": "^3.3.3"
   },
   "peerDependencies": {
-    "@strapi/strapi": "^5.3.0",
-    "@strapi/sdk-plugin": "^5.2.7"
+    "@strapi/sdk-plugin": "^5.2.7",
+    "@strapi/strapi": "^5.3.0"
   },
   "strapi": {
     "kind": "plugin",
     "name": "push-notification-plugin",
-    "displayName": "push notification",
+    "displayName": "Push Notification",
     "description": "Send Push Notification Using FCM"
   },
   "name": "push-notification-plugin",
